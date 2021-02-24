@@ -1,0 +1,23 @@
+{
+  "name": "stefanalexandru-v/emagia-project",
+  "description": "emagia-project",
+  "type": "library",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "stefan vladu",
+      "email": "vladustefan01@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Emagia\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^6.3@dev"
+  }
+}
